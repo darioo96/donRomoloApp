@@ -1,10 +1,11 @@
 import { Box } from "@chakra-ui/react"
+import Navbar from "./components/Navbar"
 
 function App() {
 
   return (
     <div className="App">
-      <Box display={"flex"} justifyContent={"center"}> hola mundo</Box>
+      <Navbar/>
     </div>
   )
 }
